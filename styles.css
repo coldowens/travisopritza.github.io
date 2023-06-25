@@ -1,0 +1,33 @@
+.city {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 400px; /*adjust the height as needed*/
+}
+
+.building {
+    position: relative;
+    width: 100px;
+    height: 200px;
+    background-color: #000;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.building:hover {
+    background-color: #07f;
+}
+
+.building h1 {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: #07f;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 0 0 5px #07f;
+}
